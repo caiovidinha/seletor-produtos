@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+    <title>T20 Max - Selecione seu produto</title>
+</head>
+<body>
+        <div class="head-title">
+            <h1>Escolha o seu pacote</h1>
+            <p>Selecione uma das opções</p>
+        </div>
+    <hr>
+        <div class="container">
+            <div class="frasco" id="frasco1"><img src="" alt="" id = "pote"></div>
+        </div>
+        <div class="container btnsD">
+            <div class="btns">
+                <button onclick="mudarFrasco('img/1 FRASCO-01.png',
+                'https://t20max.carrinho.app/one-checkout/ocutb/8290484',
+                '197,00',
+                '26,59',
+                btn1,
+                '10x',
+                ' com frete'
+                )" class="btn active" id="1pote">1 Pote</button>
+                <button onclick="mudarFrasco('img/3 FRASCOS-01.png',
+                'https://t20max.carrinho.app/one-checkout/ocutb/8296277',
+                '397,00',
+                '39,86',
+                btn2,
+                '12x',
+                ''
+                )" class="btn" id="2pote">3 Potes</button>
+                <button onclick="mudarFrasco('img/6 FRASCOS-01.png',
+                'https://t20max.carrinho.app/one-checkout/ocutb/8296645',
+                '697,00',
+                '69,98',
+                btn3,
+                '12x',
+                ''
+                )" class="btn" id="3pote">6 Potes</button>
+            </div>
+        </div>
+        <div class="preco" id="preco">
+        </div>
+        <div class="container btnsD">
+        <div class="btnsC">
+            <a href="https://t20max.carrinho.app/one-checkout/ocutb/8290484" class="btn-buy" id="buy">COMPRAR AGORA</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
